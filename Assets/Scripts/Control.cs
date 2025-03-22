@@ -123,7 +123,6 @@ public class Control : MonoBehaviour
 
     private void StartJump()
     {
-        Debug.Log("1");
         isJumping = true;
         jumpTimer = 0f;
     }

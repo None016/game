@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
@@ -7,11 +8,25 @@ public class Event : MonoBehaviour
     public GameObject imageObject;
     public Animator anim;
 
+
+    private bool isTriger = false;
+
+    void Update()
+    {
+        if (!isTriger) { 
+            // Генерируем событие при нажатии клавиши Space
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+
+            }
+        }
+        
+    }
+
     private void Start()
     {
         if (imageObject.activeSelf)
         {
-            Debug.Log(3);
             imageObject.SetActive(false);
         }
     }
@@ -20,9 +35,9 @@ public class Event : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log(1);
             imageObject.SetActive(true);
             anim.SetInteger("stay", 1);
+            isTriger = true;
         }
     }
 
@@ -30,9 +45,9 @@ public class Event : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player")) 
         {
-            Debug.Log(2);
             //imageObject.SetActive(false);
             anim.SetInteger("stay", 0);
+            isTriger = false;
         }  
     }
 }
