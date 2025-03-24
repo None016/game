@@ -1,35 +1,27 @@
-using System;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.UIElements;
 
-public class Event : MonoBehaviour
+public class suicide : MonoBehaviour
 {
     public GameObject imageObject;
     public Animator anim;
 
-    public GameObject script;
-    public string triggerID;
+    public GameObject thougts;
+
 
 
     private bool isTriger = false;
 
-    void Update()      
+    void Update()
     {
-        if (!isTriger) { 
-            // Генерируем событие при нажатии клавиши Space
+        if (isTriger)
+        {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                interaction interactableObject = script.GetComponent<interaction>();
 
-                if (interactableObject != null)
-                {
-                    // Вызываем метод взаимодействия и передаем идентификатор триггера
-                    interactableObject.Interact(triggerID);
-                }
+                thougts.GetComponent<thoughts>().getSuicide();
             }
         }
-        
+
     }
 
     private void Start()
@@ -39,6 +31,7 @@ public class Event : MonoBehaviour
             imageObject.SetActive(false);
         }
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -52,11 +45,11 @@ public class Event : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player")) 
+        if (collision.gameObject.CompareTag("Player"))
         {
             //imageObject.SetActive(false);
             anim.SetInteger("stay", 0);
             isTriger = false;
-        }  
+        }
     }
 }
