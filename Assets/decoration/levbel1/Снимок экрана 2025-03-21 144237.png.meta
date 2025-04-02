@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: 55107792dd4b12b4fb72e337a711d284
+guid: 02f7628edbdfba1448278d9e4b4db895
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8451696814884118473
-    second: backround_room_0
+      213: -7577905371642458878
+    second: "\u0421\u043D\u0438\u043C\u043E\u043A \u044D\u043A\u0440\u0430\u043D\u0430
+      2025-03-21 144237_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +114,14 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: backround_room_0
+      name: "\u0421\u043D\u0438\u043C\u043E\u043A \u044D\u043A\u0440\u0430\u043D\u0430
+        2025-03-21 144237_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 850
-        height: 650
+        width: 243
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 730288f968a85ba80800000000000000
-      internalID: -8451696814884118473
+      spriteID: 20d0ab5c63fd5d690800000000000000
+      internalID: -7577905371642458878
       vertices: []
       indices: 
       edges: []
@@ -148,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      backround_room_0: -8451696814884118473
+      "\u0421\u043D\u0438\u043C\u043E\u043A \u044D\u043A\u0440\u0430\u043D\u0430 2025-03-21 144237_0": -7577905371642458878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

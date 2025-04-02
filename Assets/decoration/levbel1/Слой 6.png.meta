@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6e3bd35a6c62799419710cb0bae1614c
+guid: 001f66effdec5b843b686ca0fc1e3f67
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5691002597895537966
-    second: bead_0
+      213: 2222056386191992559
+    second: "\u0421\u043B\u043E\u0439 6_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bead_0
+      name: "\u0421\u043B\u043E\u0439 6_0"
       rect:
         serializedVersion: 2
-        x: 71
-        y: 160
-        width: 276
-        height: 122
+        x: 0
+        y: 0
+        width: 54
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2da7c981a4f7501b0800000000000000
-      internalID: -5691002597895537966
+      spriteID: fe6acd1a28456de10800000000000000
+      internalID: 2222056386191992559
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bead_0: -5691002597895537966
+      "\u0421\u043B\u043E\u0439 6_0": 2222056386191992559
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 590a760e298a2394eaa8608b8a0e6053
+guid: 6be2375e6ef498048ad8da52694b6bf3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1084870471915973256
-    second: keyboard_0
+      213: -7923871301552940809
+    second: "\u0421\u043B\u043E\u0439 2 copy 3_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: keyboard_0
+      name: "\u0421\u043B\u043E\u0439 2 copy 3_0"
       rect:
         serializedVersion: 2
-        x: 654
-        y: 272
-        width: 53
-        height: 17
+        x: 0
+        y: 0
+        width: 5502
+        height: 2267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88aacd142fb3e0f00800000000000000
-      internalID: 1084870471915973256
+      spriteID: 7f85601a801c80290800000000000000
+      internalID: -7923871301552940809
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      keyboard_0: 1084870471915973256
+      "\u0421\u043B\u043E\u0439 2 copy 3_0": -7923871301552940809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,9 +1,13 @@
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static System.TimeZoneInfo;
 
 public class door : MonoBehaviour
 {
     public int namberScene;
+    public Animator anim;
+    
 
     private bool isTriger = false;
 
@@ -28,12 +32,16 @@ public class door : MonoBehaviour
         }
     }
 
-    void Update()
+    async void Update()
     {
         if (isTriger)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                anim.SetBool("drking", true);
+
+                await Task.Delay(2000);
+
                 SceneManager.LoadScene(namberScene);
             }
         }
