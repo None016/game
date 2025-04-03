@@ -164,6 +164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 298060666}
+  videoPlayer: {fileID: 705216634}
+  nextSceneName: level4
 --- !u!95 &298060666 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1064625329894915416, guid: 2d4af9c6d041a3346a7135c6a2cbdafc, type: 3}
