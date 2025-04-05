@@ -2298,7 +2298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1b6d2838e730143b831679dc057f20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  namberScene: 0
+  namberScene: 4
   anim: {fileID: 1054282108}
   outlineSprite: {fileID: 593158535}
 --- !u!1 &2081064957
