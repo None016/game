@@ -25,7 +25,7 @@ public class SceneMenedgerlevel3 : MonoBehaviour
     async void OnVideoEnd(VideoPlayer vp)
     {
         anim.SetBool("drking", true);
-        await Task.Delay(2000);
+        await Task.Delay(1000);
 
         SceneManager.LoadScene(nextSceneName);
     }

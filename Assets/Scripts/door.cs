@@ -39,7 +39,7 @@ public class door : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 anim.SetBool("drking", true);
-                await Task.Delay(2000);
+                await Task.Delay(1000);
 
                 SceneManager.LoadScene(namberScene);
             }
