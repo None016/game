@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &240417187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1511401273035395653, guid: 1a97110a06faf944285bc608840f4f9f, type: 3}
+  m_PrefabInstance: {fileID: 1114866090}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &345515671
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +304,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 0
   anim: {fileID: 1054282108}
+  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  hiro: {fileID: 240417187}
   outlineSprite: {fileID: 768721677}
 --- !u!1 &593158534
 GameObject:
@@ -381,12 +388,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593158534}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.433, y: -0.592, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 19.759632, y: -0.19466838, z: -0.58092564}
   m_LocalScale: {x: 0.19689427, y: 0.19689427, z: 0.19689427}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 628976651}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &628976647
 GameObject:
@@ -567,6 +574,12 @@ Transform:
   - {fileID: 861812898}
   - {fileID: 1523281240}
   - {fileID: 345515672}
+  - {fileID: 2141688334}
+  - {fileID: 768721678}
+  - {fileID: 2105148173}
+  - {fileID: 593158536}
+  - {fileID: 1547015226}
+  - {fileID: 727676044}
   - {fileID: 1245221036}
   - {fileID: 724060814}
   m_Father: {fileID: 0}
@@ -776,12 +789,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727676042}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.469, y: -0.59, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35.79563, y: -0.19266835, z: -0.58092564}
   m_LocalScale: {x: 0.19689427, y: 0.19689427, z: 0.19689427}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 628976651}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &736993594
 GameObject:
@@ -951,12 +964,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768721675}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.829, y: -0.58, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.155631, y: -0.18266836, z: -0.58092564}
   m_LocalScale: {x: 0.19689427, y: 0.19689427, z: 0.19689427}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 628976651}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &856370958
 GameObject:
@@ -1049,8 +1062,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1b6d2838e730143b831679dc057f20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  namberScene: 0
+  namberScene: 6
   anim: {fileID: 1054282108}
+  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  hiro: {fileID: 240417187}
   outlineSprite: {fileID: 727676043}
 --- !u!1 &861812897
 GameObject:
@@ -1186,6 +1201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 0
   anim: {fileID: 1054282108}
+  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  hiro: {fileID: 240417187}
   outlineSprite: {fileID: 2141688333}
 --- !u!61 &882633760
 BoxCollider2D:
@@ -1344,7 +1361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4189833208766538794, guid: 1a97110a06faf944285bc608840f4f9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.82
+      value: 13.86
       objectReference: {fileID: 0}
     - target: {fileID: 4189833208766538794, guid: 1a97110a06faf944285bc608840f4f9f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1895,12 +1912,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547015224}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.366, y: -0.578, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 27.69263, y: -0.18066838, z: -0.58092564}
   m_LocalScale: {x: 0.19689427, y: 0.19689427, z: 0.19689427}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 628976651}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1754562077
 GameObject:
@@ -2113,6 +2130,53 @@ Transform:
   - {fileID: 856370959}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1935867719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1935867721}
+  - component: {fileID: 1935867720}
+  m_Layer: 0
+  m_Name: SceneMenedger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1935867720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935867719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45bcae09b7ad6cb44a9976e171322406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hero: {fileID: 240417187}
+  camera: {fileID: 1212426010}
+  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+--- !u!4 &1935867721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935867719}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.476362, y: -0.69665235, z: 0.14996795}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2002234716
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,8 +2268,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1b6d2838e730143b831679dc057f20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  namberScene: 0
+  namberScene: 7
   anim: {fileID: 1054282108}
+  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  hiro: {fileID: 240417187}
   outlineSprite: {fileID: 2105148172}
 --- !u!1 &2021680831
 GameObject:
@@ -2300,6 +2366,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 4
   anim: {fileID: 1054282108}
+  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  hiro: {fileID: 240417187}
   outlineSprite: {fileID: 593158535}
 --- !u!1 &2081064957
 GameObject:
@@ -2469,12 +2537,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105148170}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.116, y: -0.578, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.442632, y: -0.18066838, z: -0.58092564}
   m_LocalScale: {x: 0.19689427, y: 0.19689427, z: 0.19689427}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 628976651}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2119890127
 GameObject:
@@ -2569,6 +2637,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 5
   anim: {fileID: 1054282108}
+  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  hiro: {fileID: 240417187}
   outlineSprite: {fileID: 1547015225}
 --- !u!1 &2141688332
 GameObject:
@@ -2651,12 +2721,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141688332}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.037, y: -0.597, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.7103689, y: -0.19966838, z: -0.58092564}
   m_LocalScale: {x: 0.19689427, y: 0.19689427, z: 0.19689427}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 628976651}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -2667,9 +2737,4 @@ SceneRoots:
   - {fileID: 628976651}
   - {fileID: 1887433984}
   - {fileID: 1283480795}
-  - {fileID: 2141688334}
-  - {fileID: 768721678}
-  - {fileID: 2105148173}
-  - {fileID: 593158536}
-  - {fileID: 1547015226}
-  - {fileID: 727676044}
+  - {fileID: 1935867721}

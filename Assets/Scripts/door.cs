@@ -7,6 +7,10 @@ public class door : MonoBehaviour
 {
     public int namberScene;
     public Animator anim;
+
+    public VectorPlayer vectorPlayer;
+    public GameObject hiro;
+
     
 
     private bool isTriger = false;
@@ -38,6 +42,8 @@ public class door : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                vectorPlayer.playerVector = hiro.transform.position;
+
                 anim.SetBool("drking", true);
                 await Task.Delay(1000);
 
