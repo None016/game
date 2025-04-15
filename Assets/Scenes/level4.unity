@@ -304,7 +304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 0
   anim: {fileID: 1054282108}
-  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  vectorPlayer: {fileID: 11400000, guid: f23333e8765e95f48aeeb856d1bdaa66, type: 2}
   hiro: {fileID: 240417187}
   outlineSprite: {fileID: 768721677}
 --- !u!1 &593158534
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 6
   anim: {fileID: 1054282108}
-  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  vectorPlayer: {fileID: 11400000, guid: f23333e8765e95f48aeeb856d1bdaa66, type: 2}
   hiro: {fileID: 240417187}
   outlineSprite: {fileID: 727676043}
 --- !u!1 &861812897
@@ -1201,7 +1201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 0
   anim: {fileID: 1054282108}
-  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  vectorPlayer: {fileID: 11400000, guid: f23333e8765e95f48aeeb856d1bdaa66, type: 2}
   hiro: {fileID: 240417187}
   outlineSprite: {fileID: 2141688333}
 --- !u!61 &882633760
@@ -2160,8 +2160,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hero: {fileID: 240417187}
-  camera: {fileID: 1212426010}
-  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  camer: {fileID: 1212426010}
+  vectorPlayer: {fileID: 11400000, guid: f23333e8765e95f48aeeb856d1bdaa66, type: 2}
 --- !u!4 &1935867721
 Transform:
   m_ObjectHideFlags: 0
@@ -2270,7 +2270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 7
   anim: {fileID: 1054282108}
-  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  vectorPlayer: {fileID: 11400000, guid: f23333e8765e95f48aeeb856d1bdaa66, type: 2}
   hiro: {fileID: 240417187}
   outlineSprite: {fileID: 2105148172}
 --- !u!1 &2021680831
@@ -2366,7 +2366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 4
   anim: {fileID: 1054282108}
-  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  vectorPlayer: {fileID: 11400000, guid: f23333e8765e95f48aeeb856d1bdaa66, type: 2}
   hiro: {fileID: 240417187}
   outlineSprite: {fileID: 593158535}
 --- !u!1 &2081064957
@@ -2637,7 +2637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 5
   anim: {fileID: 1054282108}
-  vectorPlayer: {fileID: 11400000, guid: e08d4055a5d9eaf4ca948bfe8f62544f, type: 2}
+  vectorPlayer: {fileID: 11400000, guid: f23333e8765e95f48aeeb856d1bdaa66, type: 2}
   hiro: {fileID: 240417187}
   outlineSprite: {fileID: 1547015225}
 --- !u!1 &2141688332

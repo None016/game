@@ -8,15 +8,13 @@ public class door : MonoBehaviour
     public int namberScene;
     public Animator anim;
 
-    public VectorPlayer vectorPlayer;
     public GameObject hiro;
 
-    
 
     private bool isTriger = false;
 
 
-    [SerializeField] private SpriteRenderer outlineSprite; // —сылка на SpriteRenderer обводки
+    public SpriteRenderer outlineSprite; // —сылка на SpriteRenderer обводки
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -42,7 +40,11 @@ public class door : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                vectorPlayer.playerVector = hiro.transform.position;
+                if (hiro != null)
+                {
+                    Vector2_level4.x = hiro.transform.position.x;
+                    Vector2_level4.y = hiro.transform.position.y;
+                }
 
                 anim.SetBool("drking", true);
                 await Task.Delay(1000);

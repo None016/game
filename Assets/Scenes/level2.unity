@@ -316,6 +316,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namberScene: 2
   anim: {fileID: 34717210}
+  vectorPlayer: {fileID: 0}
+  hiro: {fileID: 0}
   outlineSprite: {fileID: 1376104345}
 --- !u!61 &700205279
 BoxCollider2D:

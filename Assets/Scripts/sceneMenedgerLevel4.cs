@@ -3,12 +3,12 @@ using UnityEngine;
 public class sceneMenedgerLevel4 : MonoBehaviour
 {
     public GameObject hero;
-    public GameObject camera;
-    public VectorPlayer vectorPlayer;
+    public GameObject camer;
 
     void Start()
     {
-        hero.transform.position = new Vector2(vectorPlayer.playerVector.x, vectorPlayer.playerVector.y);
-        camera.transform.position = new Vector3(vectorPlayer.playerVector.x, vectorPlayer.playerVector.y + 1f, camera.transform.position.z);
+        Debug.Log(Vector2_level4.x);
+        hero.transform.position = new Vector2(Vector2_level4.x, Vector2_level4.y);
+        camer.transform.position = new Vector3(Vector2_level4.x, Vector2_level4.y + 1f, camer.transform.position.z);
     }
 }
