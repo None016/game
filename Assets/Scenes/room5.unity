@@ -1755,6 +1755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437680560}
   - component: {fileID: 1437680559}
+  - component: {fileID: 1437680561}
   m_Layer: 0
   m_Name: SceneMenadger
   m_TagString: Untagged
@@ -1790,6 +1791,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1437680561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437680558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0612d592fd881464f985f35238863aad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tr_botan: {fileID: 1214956215}
+  tr_book: {fileID: 1603188841}
+  img_book: {fileID: 1240545763}
 --- !u!1 &1446297945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,6 +2029,7 @@ GameObject:
   - component: {fileID: 1603188842}
   - component: {fileID: 1603188843}
   - component: {fileID: 1603188844}
+  - component: {fileID: 1603188845}
   m_Layer: 0
   m_Name: book
   m_TagString: Untagged
@@ -2097,6 +2114,18 @@ MonoBehaviour:
   anim: {fileID: 583470017}
   book: {fileID: 1240545763}
   isTakeBook: 0
+--- !u!114 &1603188845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603188841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6b3af1453d2ea40803ddf5d527240a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1702518403
 GameObject:
   m_ObjectHideFlags: 0
