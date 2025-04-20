@@ -1,10 +1,12 @@
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Rendering;
 
 public class TaceLection : MonoBehaviour
 {
     private bool isTriger = false;
-    void Update()
+    public Animator anim;
+    async void Update()
     {
         if (isTriger)
         {
@@ -14,6 +16,9 @@ public class TaceLection : MonoBehaviour
                 {
                     Vector2_level4.take_lectures = true;
                     Debug.Log(Vector2_level4.take_lectures);
+                    anim.SetBool("show", true);
+                    await Task.Delay(2000);
+                    anim.SetBool("show", false);
                 }
             }
         }
