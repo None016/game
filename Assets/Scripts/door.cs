@@ -7,8 +7,9 @@ public class door : MonoBehaviour
 {
     public int namberScene;
     public Animator anim;
-
     public GameObject hiro;
+
+    public bool dontSetVector2d = false;
 
 
     private bool isTriger = false;
@@ -40,7 +41,7 @@ public class door : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (hiro != null)
+                if (hiro != null && !dontSetVector2d)
                 {
                     Vector2_level4.x = hiro.transform.position.x;
                     Vector2_level4.y = hiro.transform.position.y;
