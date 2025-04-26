@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1b6d2838e730143b831679dc057f20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  namberScene: 0
+  namberScene: 12
   anim: {fileID: 561645436}
   hiro: {fileID: 1659891432}
   dontSetVector2d: 1
