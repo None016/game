@@ -6,6 +6,7 @@ TagManager:
   tags:
   - plotform
   - wall
+  - 'weapon '
   layers:
   - Default
   - TransparentFX
